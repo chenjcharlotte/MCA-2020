@@ -10,7 +10,7 @@ My dataset's theme is the American musical film *Hamilton*, a film released on D
 
 #### Descriptive data 
 
-Since *Hamilton* a film musical, IMDb contains detailed soundtrack credits regarding every song that appeared in the movie; information comprises the title, performers, composers, and administrators. One can also find descriptive data from music streaming platforms such as Apple Music and Spotify, where provides metadata, including artist name, song title, performers, producers, writers, and track duration. Moreover, Youtube lays out song titles, providers, copyright information, and each person’s role (e.g.harp, violin, keyboards) under every song’s description area. The user can save the song on the music and video platforms mentioned above, add it to the queue or playlist, or copy the link and share it. 
+Since *Hamilton* is a film musical, IMDb contains detailed soundtrack credits regarding every song in the movie; information comprises the title, performers, composers, and administrators. One can also find descriptive data from music streaming platforms such as Apple Music and Spotify, where provides metadata, including artist name, song title, performers, producers, writers, and track duration. Moreover, Youtube lays out song titles, providers, copyright information, and each person’s role (e.g.harp, violin, keyboards) under every song’s description area. The user can save the song on the music and video platforms mentioned above, add it to the queue or playlist, or copy the link and share it. 
 
 #### Notated data 
 

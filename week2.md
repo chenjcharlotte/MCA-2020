@@ -6,7 +6,6 @@
 
 # Week 2: Notated Data 
 
-This week, I transcribed the song *You'll Be Back* to MuseScore file, which is the 7th song of Act One of the musical Hamilton.
-The song is written by Lin-Manuel Miranda. 
+This week, I transcribed the song *You'll Be Back* to MuseScore file. The song is the 7th song of Act One of the musical Hamilton and is written by Lin-Manuel Miranda. 
 The music sheet can be found on [SheetMusicFree](https://sheetmusic-free.com/youll-be-back-sheet-music-hamilton/). 
 The screenshots of my MuseScore file is shown below. 

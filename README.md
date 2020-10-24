@@ -4,7 +4,7 @@
 
 | Week 1 | Week 2 | Week 3 | Week 4 | Week 5 |
 | ---|---|---|---|---|
-| [Music Data](README.md) | Notated Data | Encoded Notation | Computational Analytics | Standards in Curation |
+| [Music Data](README.md) | [Notated Data](week2.md) | Encoded Notation | Computational Analytics | Standards in Curation |
 
 
 ## Week 1: Music Data 

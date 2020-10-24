@@ -18,3 +18,8 @@ As for the second task, I followed the instructions and rendered the file using 
 Here is the [link](https://chenjcharlotte.github.io/MCA-2020/verovio.html) of my verovio. 
 
 Please clear the cache and then refresh the page if the page does not show up.  
+
+The screenshots of my Verovio page are shown below. 
+
+![](data/verovio1.png)
+![](data/verovio2.png)

@@ -2,7 +2,7 @@
 
 | Week 1 | Week 2 | Week 3 | Week 4 | Week 5 |
 | ---|---|---|---|---|
-| [Music Data](README.md) | [Notated Data](week2.md) | Encoded Notation | Computational Analytics | Standards in Curation |
+| [Music Data](README.md) | [Notated Data](week2.md) | [Encoded Notation](week3.md) | Computational Analytics | Standards in Curation |
 
 # Week 2: Notated Data 
 
@@ -10,6 +10,6 @@ This week, I transcribed the song *You'll Be Back* to [MuseScore file](You'll_Be
 The music sheet can be found on [SheetMusicFree](https://sheetmusic-free.com/youll-be-back-sheet-music-hamilton/). 
 The screenshots of my MuseScore file are shown below. 
 
-![](data/pg1.png)
-![](data/pg2.png)
-![](data/pg3.png)
+![Page1](data/pg1.png)
+![Page2](data/pg2.png)
+![Page3](data/pg3.png)

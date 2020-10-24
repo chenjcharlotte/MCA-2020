@@ -4,10 +4,10 @@
 
 | Week 1 | Week 2 | Week 3 | Week 4 | Week 5 |
 | ---|---|---|---|---|
-| Basic of Music Data | Notation Basics | Encoding Basics for Notation | Computational Analytics of Notated Music | Standards in Curation |
+| [Music Data](README.md) | Notated Data | Encoded Notation | Computational Analytics | Standards in Curation |
 
 
-## Week 1: Basics of music data 
+## Week 1: Music Data 
 
 ### Task 1: Dataset theme
 

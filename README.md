@@ -31,7 +31,7 @@ The content is divided into 9 weeks of labs. The activities from the [first week
  - [MEI File](https://github.com/chenjcharlotte/MCA-2020/blob/master/data/Youll_Be_Back.mei) 
  - [Verovio Page](https://chenjcharlotte.github.io/MCA-2020/verovio.html) 
  - [jSymbolic CSV File](https://github.com/chenjcharlotte/MCA-2020/blob/master/data/week4_jSymbolic1.csv) 
- - [Modified MEI File]()
+ - [Modified MEI File](https://github.com/chenjcharlotte/MCA-2020/blob/master/data/modified_Youll_Be_Back.mei)
  
  
  ### References 

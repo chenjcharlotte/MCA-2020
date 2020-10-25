@@ -40,9 +40,9 @@ If I have 1,000 different MEI files that I would include in my GitHub repository
 
 - **publisher**: individual or oganisation who is responsible for the publication. 
 
-- **sponsor**: the name(s) of the individual(s) or organisation(s) who sponsor and give the intellectual authority. 
+- **sponsor**: the name of the individual or organisation who sponsor and give the intellectual authority. 
 
-- **funder**: the name(s) of the individual(s) or organisation(s) who provide financial support to the project. 
+- **funder**: the name of the individual or organisation who provide financial support to the project. 
 
 - **restriction**: the limitations of the accessibility of the material under certain circumstances. 
 
@@ -61,3 +61,7 @@ If I have 1,000 different MEI files that I would include in my GitHub repository
 **4. Description of Revision**
 
 - **change**: information about the each alternation of MEI file. 
+
+### Task 2: Modification of MEI Document
+
+I modified and enriched the [MEI document]() where possible. 

@@ -13,7 +13,7 @@ I have selected a range of features and here is the [CSV file](https://github.co
 
 The table includes the basic fatures of the analysis, such as number of pitches, number of pitch classes, range, mean pitch, and mean pitch class. There are some interesting results from these basic features. For example, while the number of pitch classes is 11, there is only one common pitch class of this music piece. Further, I also selected some other features that I think are interesting and relevant to my piece. For instance, the pitch skewness of my piece is -0.9701, indicating that an asymmetrical pitch distribution to the left of the mean pitch. Also, the data shows that the middle register appears to be more significant than bass or high registers in this music piece. 
 
-| Features | Data | Features | Data |
+| Feature | Data | Feature | Data |
 |---|---|---|---|
 |Number of Pitches|34|Number of Pitch Classes|11|
 |Number of Common Pitches|4|Number of Common Pitch Classes|1|

@@ -2,7 +2,7 @@
 
 | Week 1 | Week 2 | Week 3 | Week 4 | Week 5 |
 | ---|---|---|---|---|
-| [Music Data](README.md) | [Notated Data](week2.md) | [Encoded Notation](week3.md) | Computational Analytics | Standards in Curation |
+| [Music Data](https://github.com/chenjcharlotte/MCA-2020/blob/master/README.md) | [Notated Data](week2.md) | [Encoded Notation](week3.md) | Computational Analytics | Standards in Curation |
 
 
 ## Week 3: Encoded Notation
@@ -21,5 +21,5 @@ Please clear the cache and then refresh the page if the page does not show up.
 
 The screenshots of my Verovio page are shown below. 
 
-![](data/verovio1.png)
-![](data/verovio2.png)
+![](./verovio1.png)
+![](./verovio2.png)

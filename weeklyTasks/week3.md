@@ -20,5 +20,7 @@ Please clear the cache and then refresh the page if the page does not show up.
 
 The screenshots of my Verovio page are shown below. 
 
-![](./verovio1.png)
-![](./verovio2.png)
+<p align="center">
+<img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/images/week3Veroviopage1.png" width="800">
+<img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/images/week3Veroviopage2.png" width="800">
+</p>

@@ -26,7 +26,7 @@ The content is divided into 9 weeks of labs. The activities from the [first week
  
  ###  Files and Links 
  
- - [MuseScore File](https://github.com/chenjcharlotte/MCA-2020/blob/master/You'll_Be_Back.mscz) 
+ - [MuseScore File](https://github.com/chenjcharlotte/MCA-2020/blob/master/data/You'll_Be_Back.mscz) 
  - [MusicXML File](https://github.com/chenjcharlotte/MCA-2020/blob/master/data/You'll_Be_Back.musicxml) 
  - [MEI File](https://github.com/chenjcharlotte/MCA-2020/blob/master/data/Youll_Be_Back.mei) 
  - [Verovio Page](https://chenjcharlotte.github.io/MCA-2020/verovio.html) 

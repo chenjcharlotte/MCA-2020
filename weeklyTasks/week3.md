@@ -9,7 +9,7 @@
 
 ### Task 1: MusicXml and MEI 
 
-In the first part of the activity, I exported the music score I created last week and generated [MusicXML](data/You'll_Be_Back.musicxml) and [MEI files](data/Youll_Be_Back.mei). 
+In the first part of the activity, I exported the music score I created last week and generated [MusicXML](https://github.com/chenjcharlotte/MCA-2020/blob/master/data/You'll_Be_Back.musicxml) and [MEI files](https://github.com/chenjcharlotte/MCA-2020/blob/master/data/Youll_Be_Back.mei). 
 
 ### Task 2: Verovio 
 

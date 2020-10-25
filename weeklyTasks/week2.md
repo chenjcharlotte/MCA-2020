@@ -10,6 +10,6 @@ This week, I transcribed the song *You'll Be Back* to [MuseScore file](You'll_Be
 The music sheet can be found on [SheetMusicFree](https://sheetmusic-free.com/youll-be-back-sheet-music-hamilton/). 
 The screenshots of my MuseScore file are shown below. 
 
-![](weeklyTasks/MSpage1.png)
-![](weeklyTasks/MSpage2.png)
-![](weeklyTasks/MSpage3.png)
+![](./MSpage1.png)
+![](./MSpage2.png)
+![](./MSpage3.png)

@@ -14,7 +14,7 @@ In the first part of the activity, I exported the music score I created last wee
 
 As for the second task, I followed the instructions and rendered the file using Verovio in GitHub.
 
-Here is the page of [verovio app](https://chenjcharlotte.github.io/MCA-2020/verovio.html). 
+Here is the page of [Verovio App](https://chenjcharlotte.github.io/MCA-2020/verovio.html). 
 
 Please clear the cache and then refresh the page if the page does not show up.  
 

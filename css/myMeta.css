@@ -1,6 +1,6 @@
 mei-title#songtitle {
-  font-family: "Uncial Antiqua"
-  font-size: 18pt;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 23pt;
   font-weight: bold; 
   font-variant-caps: small-caps;
   margin-top: -0.5em;
@@ -9,6 +9,7 @@ mei-title#songtitle {
 
 mei-title#album {
   font-family: "Times New Roman", Times, serif;
+  display: block;
 }
 
 mei-title#album::before {
@@ -16,5 +17,4 @@ mei-title#album::before {
   font-weight: bold; 
   content: "Album: ";
   white-space: pre;
-  display: block;
 }

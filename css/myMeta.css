@@ -5,6 +5,11 @@ mei-title#songtitle {
   margin-top: -0.5em;
 }
 
+mei-title#album: {
+  font-family: "Times New Roman";
+  font-size: 15pt;
+}
+
 mei-title#album::before {
   font-weight: bold;
   content: "Album: ";

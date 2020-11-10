@@ -1,3 +1,7 @@
+#MEImeta {
+  margin-left: 70px;
+} 
+
 #songtitle {
   font-family: "Times New Roman", Times, serif;
   font-weight: bold; 
@@ -106,11 +110,13 @@ mei-date::before{
   font-weight: bold; 
   content: "Date encoded: ";
   white-space: pre;
+  margin-bottom: 10px;
 } 
 
 mei-date {
   font-family: "Times New Roman", Times, serif;
   display: block;
+  margin-bottom: 10px;
 }
 
 mei-restriction {
@@ -129,12 +135,12 @@ mei-duration::before{
   font-family: "Times New Roman", Times, serif;
   font-weight: bold; 
   content: "Duration: ";
-  white-space: pre;
+  white-space: pre; 
 } 
 
 mei-duration {
   font-family: "Times New Roman", Times, serif;
-  display: block;
+  display: block; 
 }
 
 mei-genre::before{
@@ -143,11 +149,6 @@ mei-genre::before{
   content: "Genre: ";
   white-space: pre;
 } 
-
-mei-duration {
-  font-family: "Times New Roman", Times, serif;
-  display: block;
-}
 
 mei-score {
   display: none;
@@ -158,9 +159,11 @@ mei-language::before{
   font-weight: bold; 
   content: "Language: ";
   white-space: pre;
+  margin-bottom: 10px;
 } 
 
 mei-language {
   font-family: "Times New Roman", Times, serif;
   display: block;
+  margin-bottom: 10px;
 }

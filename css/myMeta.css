@@ -71,7 +71,7 @@ mei-resp {
 mei-name::before{
   font-family: "Times New Roman", Times, serif;
   font-weight: bold; 
-  content: "Encoded By: ";
+  content: "Encoded by: ";
   white-space: pre;
 } 
 
@@ -100,7 +100,7 @@ mei-location {
 mei-date::before{
   font-family: "Times New Roman", Times, serif;
   font-weight: bold; 
-  content: "Date: ";
+  content: "Date encoded: ";
   white-space: pre;
 } 
 
@@ -109,9 +109,41 @@ mei-date {
   display: block;
 }
 
-mei-date::before{
+mei-restriction::before{
   font-family: "Times New Roman", Times, serif;
   font-weight: bold; 
-  content: "Date: ";
+  content: "Copyright: ";
   white-space: pre;
 } 
+
+mei-application {
+  display: none; 
+}
+
+mei-duration::before{
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold; 
+  content: "Duration: ";
+  white-space: pre;
+} 
+
+mei-duration {
+  font-family: "Times New Roman", Times, serif;
+  display: block;
+}
+
+mei-score {
+  display: none; 
+}
+
+mei-language::before{
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold; 
+  content: "Language: ";
+  white-space: pre;
+} 
+
+mei-language {
+  font-family: "Times New Roman", Times, serif;
+  display: block;
+}

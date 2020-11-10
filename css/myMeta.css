@@ -19,7 +19,7 @@ mei-title#album {
 mei-composer#composer::before {
   font-family: "Times New Roman", Times, serif;
   font-weight: bold; 
-  content: "Album: ";
+  content: "Composer: ";
   white-space: pre;
 } 
 
@@ -31,7 +31,7 @@ mei-composer#composer {
 mei-lyricist#lyricist::before{
   font-family: "Times New Roman", Times, serif;
   font-weight: bold; 
-  content: "Album: ";
+  content: "Lyricist: ";
   white-space: pre;
 } 
 
@@ -43,7 +43,7 @@ mei-lyricist#lyricis {
 mei-singer#singer::before{
   font-family: "Times New Roman", Times, serif;
   font-weight: bold; 
-  content: "Album: ";
+  content: "Singer: ";
   white-space: pre;
 } 
 
@@ -55,7 +55,7 @@ mei-singer#singer {
 mei-producer#producer::before{
   font-family: "Times New Roman", Times, serif;
   font-weight: bold; 
-  content: "Album: ";
+  content: "Producer: ";
   white-space: pre;
 } 
 
@@ -64,4 +64,54 @@ mei-producer#producer {
   display: block;
 }
 
+mei-resp {
+  display: none; 
+} 
 
+mei-name::before{
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold; 
+  content: "Encoded By: ";
+  white-space: pre;
+} 
+
+mei-name {
+  font-family: "Times New Roman", Times, serif;
+  display: block;
+}
+
+mei-publisher {
+  display: none; 
+}
+
+
+mei-location::before{
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold; 
+  content: "Location: ";
+  white-space: pre;
+} 
+
+mei-location {
+  font-family: "Times New Roman", Times, serif;
+  display: block;
+}
+
+mei-date::before{
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold; 
+  content: "Date: ";
+  white-space: pre;
+} 
+
+mei-date {
+  font-family: "Times New Roman", Times, serif;
+  display: block;
+}
+
+mei-date::before{
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold; 
+  content: "Date: ";
+  white-space: pre;
+} 

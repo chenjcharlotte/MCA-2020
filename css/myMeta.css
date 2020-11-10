@@ -1,12 +1,6 @@
 mei-title#songtitle {
   font-family: "Times New Roman", Times, serif;
-  font-size: 23pt;
   font-weight: bold; 
-  display: block;
-}
-
-mei-title#album {
-  font-family: "Times New Roman", Times, serif;
   display: block;
 }
 
@@ -16,3 +10,58 @@ mei-title#album::before {
   content: "Album: ";
   white-space: pre;
 }
+
+mei-title#album {
+  font-family: "Times New Roman", Times, serif;
+  display: block;
+}
+
+mei-composer#composer::before {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold; 
+  content: "Album: ";
+  white-space: pre;
+} 
+
+mei-composer#composer {
+  font-family: "Times New Roman", Times, serif;
+  display: block;
+}
+
+mei-lyricist#lyricist::before{
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold; 
+  content: "Album: ";
+  white-space: pre;
+} 
+
+mei-lyricist#lyricis {
+  font-family: "Times New Roman", Times, serif;
+  display: block;
+}
+
+mei-singer#singer::before{
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold; 
+  content: "Album: ";
+  white-space: pre;
+} 
+
+mei-singer#singer {
+  font-family: "Times New Roman", Times, serif;
+  display: block;
+}
+
+mei-producer#producer::before{
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold; 
+  content: "Album: ";
+  white-space: pre;
+} 
+
+mei-producer#producer {
+  font-family: "Times New Roman", Times, serif;
+  display: block;
+}
+
+

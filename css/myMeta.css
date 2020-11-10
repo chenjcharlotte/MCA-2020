@@ -1,22 +1,22 @@
-mei-title#songtitle {
+#songtitle {
   font-family: "Times New Roman", Times, serif;
   font-weight: bold; 
   display: block;
 }
 
-mei-title#album::before {
+#album::before {
   font-family: "Times New Roman", Times, serif;
   font-weight: bold; 
   content: "Album: ";
   white-space: pre;
 }
 
-mei-title#album {
+#album {
   font-family: "Times New Roman", Times, serif;
   display: block;
 }
 
-mei-composer#composer::before {
+#composer::before {
   font-family: "Times New Roman", Times, serif;
   font-weight: bold; 
   content: "Composer: ";
@@ -28,45 +28,45 @@ mei-composer#composer {
   display: block;
 }
 
-mei-lyricist#lyricist::before{
+#lyricist::before{
   font-family: "Times New Roman", Times, serif;
   font-weight: bold; 
   content: "Lyricist: ";
   white-space: pre;
 } 
 
-mei-lyricist#lyricis {
+#lyricis {
   font-family: "Times New Roman", Times, serif;
   display: block;
 }
 
-mei-singer#singer::before{
+#singer::before{
   font-family: "Times New Roman", Times, serif;
   font-weight: bold; 
   content: "Singer: ";
   white-space: pre;
 } 
 
-mei-singer#singer {
+#singer {
   font-family: "Times New Roman", Times, serif;
   display: block;
 }
 
-mei-producer#producer::before{
+#producer::before{
   font-family: "Times New Roman", Times, serif;
   font-weight: bold; 
   content: "Producer: ";
   white-space: pre;
 } 
 
-mei-producer#producer {
+#producer {
   font-family: "Times New Roman", Times, serif;
   display: block;
 }
 
 mei-resp {
-  display: none; 
-} 
+  display: none;
+}
 
 mei-name::before{
   font-family: "Times New Roman", Times, serif;
@@ -109,12 +109,9 @@ mei-date {
   display: block;
 }
 
-mei-restriction::before{
-  font-family: "Times New Roman", Times, serif;
-  font-weight: bold; 
-  content: "Copyright: ";
-  white-space: pre;
-} 
+mei-restriction {
+  display: none;
+}
 
 mei-application {
   display: none; 
@@ -133,8 +130,8 @@ mei-duration {
 }
 
 mei-score {
-  display: none; 
-}
+  display: none;
+} 
 
 mei-language::before{
   font-family: "Times New Roman", Times, serif;

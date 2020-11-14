@@ -18,14 +18,12 @@ mei-name::before{
   font-family: "Times New Roman", Times, serif;
   font-weight: bold; 
   content: "Encoded by: ";
-  white-space: pre;
-  margin-bottom: 20px; 
+  white-space: pre; 
 } 
 
 mei-name {
   font-family: "Times New Roman", Times, serif;
   display: block;
-  margin-bottom: 20px; 
 }
 
 #edtitle::before {
@@ -33,6 +31,7 @@ mei-name {
   font-weight: bold; 
   content: "Transcribed from: ";
   white-space: pre;
+  display: block; 
 }
 
 #edtitle {

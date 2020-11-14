@@ -140,7 +140,7 @@ mei-album {
   display: block;
 }
 
-mei-songwriter {
+mei-songwriter::before {
   font-family: "Times New Roman", Times, serif;
   font-weight: bold; 
   content: "Songwriter: ";
@@ -152,7 +152,7 @@ mei-songwriter {
   display: block;
 }
 
-mei-singer {
+mei-singe::beforer {
   font-family: "Times New Roman", Times, serif;
   font-weight: bold; 
   content: "Singer: ";
@@ -164,7 +164,7 @@ mei-singer {
   display: block;
 }
 
-mei-production {
+mei-production::before {
   font-family: "Times New Roman", Times, serif;
   font-weight: bold; 
   content: "Production: ";
@@ -176,7 +176,7 @@ mei-production {
   display: block;
 }
 
-mei-releasedate {
+mei-releasedate::before {
   font-family: "Times New Roman", Times, serif;
   font-weight: bold; 
   content: "Released date: ";
@@ -188,7 +188,7 @@ mei-releasedate {
   display: block;
 }
 
-mei-duration {
+mei-duration::before {
   font-family: "Times New Roman", Times, serif;
   font-weight: bold; 
   content: "Duration: ";
@@ -200,7 +200,7 @@ mei-duration {
   display: block;
 }
 
-mei-language {
+mei-language::before {
   font-family: "Times New Roman", Times, serif;
   font-weight: bold; 
   content: "Language: ";
@@ -212,7 +212,7 @@ mei-language {
   display: block;
 }
 
-mei-genre {
+mei-genre::before {
   font-family: "Times New Roman", Times, serif;
   font-weight: bold; 
   content: "Genre: ";

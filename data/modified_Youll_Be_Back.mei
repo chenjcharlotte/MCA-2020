@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
@@ -28,22 +28,16 @@
             work, only under a license identical to this one.</p></copyrightStmt>
       </pubStmt>
       <originDesc>
-        <creation>
-          <album id="album" authURL="https://www.wikidata.org/wiki/Q19320959" auth="Wikidata">Hamilton</albumtitle>
-          <songwriter xml:id="songwriter" authURL="https://www.wikidata.org/wiki/Q1646482" auth="Wikidata"> Lin-Manuel Miranda </songwriter>
-          <singer xml:id="singer" authURL="https://www.wikidata.org/wiki/Q556644" auth="Wikidata"> Jonathan Groff </singer>
-          <production xml:id="production" authURL="https://www.wikidata.org/wiki/Q126399" auth="Wikidata"> Warner Bros. </production>
-          <date id="releasedtime">2015</date>
-          <duration>3:29</duration>
-        </creation>
-        <lyrics>
-          <language>English</language>
-        </lyrics>
-        <classification>
-          <genre authURL="https://www.wikidata.org/wiki/Q661651" auth="Wikidata">Show Tune</genre>
-        </classification>
+        <album id="album" authURL="https://www.wikidata.org/wiki/Q19320959" auth="Wikidata">Hamilton</album>
+        <songwriter xml:id="songwriter" authURL="https://www.wikidata.org/wiki/Q1646482" auth="Wikidata"> Lin-Manuel Miranda </songwriter>
+        <singer xml:id="singer" authURL="https://www.wikidata.org/wiki/Q556644" auth="Wikidata"> Jonathan Groff </singer>
+        <production xml:id="production" authURL="https://www.wikidata.org/wiki/Q126399" auth="Wikidata"> Warner Bros. </production>
+        <releasedate>2015</releasedate>
+        <duration>3:29</duration>
+        <language>English</language>
+        <genre authURL="https://www.wikidata.org/wiki/Q661651" auth="Wikidata">Show Tune</genre>
     </originDesc>
-    </fileDesc>
+ </fileDesc>
     <encodingDesc xml:id="encodingdesc-0000001222322715">
          <appInfo xml:id="appinfo-0000001674772506">
             <application xml:id="application-0000000763955557" isodate="2020-10-08T13:11:08" version="3.1.0-dev-13a71d9">

@@ -113,7 +113,8 @@ mei-restriction {
 mei-copyrightstmt {
   font-family: "Times New Roman", Times, serif;
   font-style: italic; 
-  margin: 0px 50px 0px 0px;
+  display: block; 
+  margin-right: 50px; 
 }
 
 mei-encodingdesc {

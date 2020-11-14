@@ -97,11 +97,13 @@ mei-date::before {
   font-family: "Times New Roman", Times, serif;
   font-weight: bold; 
   content: "Date: ";
+  margin-bottom: 20px; 
 }
 
 mei-date {
   font-family: "Times New Roman", Times, serif;
   display: block;
+  margin-bottom: 20px; 
 }
 
 mei-restriction {
@@ -119,6 +121,4 @@ mei-encodingdesc {
 
 mei-projectdesc {
   display: none; 
-}
-  display: block; 
 }

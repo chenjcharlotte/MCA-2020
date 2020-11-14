@@ -33,7 +33,13 @@ mei-name {
   font-weight: bold; 
   content: "Source of Transcription: ";
   white-space: pre;
-  display: block; 
+}
+
+#edtitle::before {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold; 
+  content: "Titile: ";
+  white-space: pre;
 }
 
 #edtitle {
@@ -41,15 +47,9 @@ mei-name {
   display: block;
 }
 
-mei-info:before {
-  font-family: "Times New Roman", Times, serif;
-  font-weight: bold; 
-  content: "Purpose: ";
-  white-space: pre;
-}
-
 mei-info {
   font-family: "Times New Roman", Times, serif;
+  font-style: italic; 
   display: block;
 }
 
@@ -76,6 +76,7 @@ mei-editionsite {
   font-family: "Times New Roman", Times, serif;
   display: block;
   margin-bottom: 20px; 
+  white-space: pre;
 }
 
 mei-publisher {
@@ -86,6 +87,7 @@ mei-location::before {
   font-family: "Times New Roman", Times, serif;
   font-weight: bold; 
   content: "Location: ";
+  white-space: pre;
 }
 
 mei-location {
@@ -115,6 +117,7 @@ mei-copyrightstmt {
   font-style: italic; 
   display: block; 
   margin-right: 100px; 
+  margin-bottom: 20px; 
 }
 
 mei-encodingdesc {
@@ -123,4 +126,100 @@ mei-encodingdesc {
 
 mei-projectdesc {
   display: none; 
+}
+
+mei-album::before {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold; 
+  content: "Album: ";
+  white-space: pre;
+}
+
+mei-album {
+  font-family: "Times New Roman", Times, serif;
+  display: block;
+}
+
+mei-songwriter {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold; 
+  content: "Songwriter: ";
+  white-space: pre;
+}
+
+mei-songwriter {
+  font-family: "Times New Roman", Times, serif;
+  display: block;
+}
+
+mei-singer {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold; 
+  content: "Singer: ";
+  white-space: pre;
+}
+
+mei-singer {
+  font-family: "Times New Roman", Times, serif;
+  display: block;
+}
+
+mei-production {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold; 
+  content: "Production: ";
+  white-space: pre;
+}
+
+mei-production {
+  font-family: "Times New Roman", Times, serif;
+  display: block;
+}
+
+mei-releasedate {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold; 
+  content: "Released date: ";
+  white-space: pre;
+}
+
+mei-releasedate {
+  font-family: "Times New Roman", Times, serif;
+  display: block;
+}
+
+mei-duration {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold; 
+  content: "Duration: ";
+  white-space: pre;
+}
+
+mei-duration {
+  font-family: "Times New Roman", Times, serif;
+  display: block;
+}
+
+mei-language {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold; 
+  content: "Language: ";
+  white-space: pre;
+}
+
+mei-language {
+  font-family: "Times New Roman", Times, serif;
+  display: block;
+}
+
+mei-genre {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold; 
+  content: "Genre: ";
+  white-space: pre;
+}
+
+mei-genre {
+  font-family: "Times New Roman", Times, serif;
+  display: block;
 }

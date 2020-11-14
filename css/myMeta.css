@@ -128,6 +128,13 @@ mei-projectdesc {
   display: none; 
 }
 
+mei-album::before::before {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold; 
+  content: "Information of original work: ";
+  white-space: pre;
+}
+
 mei-album::before {
   font-family: "Times New Roman", Times, serif;
   font-weight: bold; 
@@ -152,7 +159,7 @@ mei-songwriter {
   display: block;
 }
 
-mei-singe::beforer {
+mei-singer::before {
   font-family: "Times New Roman", Times, serif;
   font-weight: bold; 
   content: "Singer: ";
@@ -217,9 +224,11 @@ mei-genre::before {
   font-weight: bold; 
   content: "Genre: ";
   white-space: pre;
+  margin-bottom: 20px; 
 }
 
 mei-genre {
   font-family: "Times New Roman", Times, serif;
   display: block;
+  margin-bottom: 20px; 
 }

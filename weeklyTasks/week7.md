@@ -6,7 +6,7 @@
 
 ## Week 7: Challenges to Curation
 
-### Task 1: Revise MEI flile
+### Task 1: Revise MEI file
 
 I created a second version of my MEI file and added more data to enrich it. I also fixed some mistakes I made in the last MEI file. For example, I realised that technically there should not be a composer in the song, so I changed to composer to songwriter. I also put more information about the song itself in the file, including the released date of the original piece. And I added more information regarding the source I used to encode this piece of music. Moreover, I specified licensing data and briefly summarised the rules. Lastly, I switched the order of the metadata information to make it better aligned with what I wrote in week 5 about metadata elements that can describe the music in the dataset. 
 

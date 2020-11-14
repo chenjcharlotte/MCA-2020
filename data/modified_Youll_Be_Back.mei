@@ -8,8 +8,10 @@
         <title xml:id="songtitle" authURL="https://www.wikidata.org/wiki/Q25217771" auth="Wikidata">You'll Be Back</title>
         <songwriter xml:id="composer" authURL="https://www.wikidata.org/wiki/Q1646482" auth="Wikidata"> Lin-Manuel Miranda </songwriter>
         <respStmt>
-            <resp>Encoded by</resp>
-            <name>Chen Jin</name>
+          <resp>Encoded by</resp>
+          <name>Chen Jin</name>
+          <location authURL="https://www.wikidata.org/wiki/Q4093" auth="Wikidata">Glasgow</location>
+          <date>2020</date>
         </respStmt>
       </titleStmt>
       <editionStmt>
@@ -20,8 +22,6 @@
       </editionStmt>
       <pubStmt>
           <publisher> Chen Jin </publisher>
-          <location authURL="https://www.wikidata.org/wiki/Q4093" auth="Wikidata">Glasgow</location>
-          <date>2020</date>
           <restriction authURL="http://creativecommons.org/licenses/by-nc-sa/4.0/" auth="creativecommons">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</restriction>
           <copyrightStmt><p>This encoding is distributed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
             In brief summary, you may copy and redistribute this encoding in any medium or format and, if you alter, transform or build upon this work, you distribute the resulting

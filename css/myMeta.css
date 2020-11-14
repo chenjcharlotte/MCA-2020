@@ -31,14 +31,7 @@ mei-name {
 #edtitle::before {
   font-family: "Times New Roman", Times, serif;
   font-weight: bold; 
-  content: "Source of Transcription: ";
-  white-space: pre;
-}
-
-#edtitle::before {
-  font-family: "Times New Roman", Times, serif;
-  font-weight: bold; 
-  content: "Titile: ";
+  content: "Transcribed from: ";
   white-space: pre;
 }
 
@@ -98,7 +91,7 @@ mei-location {
 mei-date::before {
   font-family: "Times New Roman", Times, serif;
   font-weight: bold; 
-  content: "Date: ";
+  content: "Date encoded: ";
   margin-bottom: 20px; 
 }
 
@@ -126,13 +119,6 @@ mei-encodingdesc {
 
 mei-projectdesc {
   display: none; 
-}
-
-mei-album::before::before {
-  font-family: "Times New Roman", Times, serif;
-  font-weight: bold; 
-  content: "Information of original work: ";
-  white-space: pre;
 }
 
 mei-album::before {

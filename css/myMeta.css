@@ -10,6 +10,10 @@
   display: block;
 }
 
+mei-resp {
+  display: none; 
+}
+
 mei-name::before{
   font-family: "Times New Roman", Times, serif;
   font-weight: bold; 
@@ -21,3 +25,62 @@ mei-name {
   font-family: "Times New Roman", Times, serif;
   display: block;
 }
+
+#edtitle::before {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold; 
+  content: "Source of Transcription: ";
+  white-space: pre;
+  display: block; 
+}
+
+#edtitle {
+  font-family: "Times New Roman", Times, serif;
+  display: block;
+}
+
+mei-info {
+  font-family: "Times New Roman", Times, serif;
+  display: block;
+}
+
+mei-arranger:before {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold; 
+  content: "Arranger: ";
+  white-space: pre;
+}
+
+mei-arranger {
+  font-family: "Times New Roman", Times, serif;
+  display: block;
+}
+
+mei-editionsite::before {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold; 
+  content: "Published on: ";
+  margin-bottom: 20px; 
+}
+
+mei-editionsite {
+  font-family: "Times New Roman", Times, serif;
+  display: block;
+  margin-bottom: 20px; 
+}
+
+mei-publisher {
+  display: none; 
+}
+
+mei-location::before {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold; 
+  content: "Location: ";
+}
+
+mei-location {
+  font-family: "Times New Roman", Times, serif;
+  display: block;
+}
+

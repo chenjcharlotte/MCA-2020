@@ -19,11 +19,13 @@ mei-name::before{
   font-weight: bold; 
   content: "Encoded by: ";
   white-space: pre;
+  margin-bottom: 20px; 
 } 
 
 mei-name {
   font-family: "Times New Roman", Times, serif;
   display: block;
+  margin-bottom: 20px; 
 }
 
 #edtitle::before {
@@ -37,6 +39,13 @@ mei-name {
 #edtitle {
   font-family: "Times New Roman", Times, serif;
   display: block;
+}
+
+mei-info:before {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold; 
+  content: "Purpose: ";
+  white-space: pre;
 }
 
 mei-info {
@@ -84,3 +93,32 @@ mei-location {
   display: block;
 }
 
+mei-date::before {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold; 
+  content: "Date: ";
+}
+
+mei-date {
+  font-family: "Times New Roman", Times, serif;
+  display: block;
+}
+
+mei-restriction {
+  display: none; 
+}
+
+mei-copyrightstmt {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic; 
+}
+
+mei-encodingdesc {
+  display: none; 
+}
+
+mei-projectdesc {
+  display: none; 
+}
+  display: block; 
+}

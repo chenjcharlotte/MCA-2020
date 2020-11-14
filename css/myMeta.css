@@ -103,7 +103,7 @@ mei-date::before {
 mei-date {
   font-family: "Times New Roman", Times, serif;
   display: block;
-  margin-bottom: 120px; 
+  margin-bottom: 20px; 
 }
 
 mei-restriction {
@@ -114,7 +114,7 @@ mei-copyrightstmt {
   font-family: "Times New Roman", Times, serif;
   font-style: italic; 
   display: block; 
-  margin-right: 50px; 
+  margin-right: 100px; 
 }
 
 mei-encodingdesc {

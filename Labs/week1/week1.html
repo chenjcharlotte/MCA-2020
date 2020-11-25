@@ -7,7 +7,7 @@
       max-width: 1012px;
       margin-left: auto;
       margin-right:auto;
-    margin-top: 20px;
+      margin-top: 20px;
       }
       body {
         font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
@@ -15,6 +15,8 @@
         line-height: 1.5;
         color: #24292e;
         background-color: #fff;
+        margin-bottom: 100px; 
+
     	}
     	h1 {
         padding-bottom: 10px;
@@ -36,7 +38,7 @@
     	border:none;
     	  }
       .dropbtn {
-      background-color: #367dbf;
+      background-color: #0366d6;
       color: white;
       padding: 16px;
       font-size: 16px;
@@ -68,12 +70,56 @@
 
     .dropdown:hover .dropdown-content {display: block;}
 
-    .dropdown:hover .dropbtn {background-color: #3e8e41;}
+    .dropdown:hover .dropbtn {background-color: #367dbf;}
+
+    #myBtn {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 30px;
+      z-index: 99;
+      font-size: 18px;
+      border: none;
+      outline: none;
+      background-color: #0366d6;
+      color: white;
+      cursor: pointer;
+      padding: 15px;
+      border-radius: 4px;
+    }
+
+    #myBtn:hover {
+      background-color: #367dbf;
+    }
       </style>
     </head>
     <body>
+
     	<div class="container">
       <body>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
+        <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+
         <h1><a href="https://github.com/chenjcharlotte/MCA-2020">Music Curation and Analytics 20-21</a></h1>
           <div class="dropdown">
           <button class="dropbtn">Table of Contents</button>
@@ -95,7 +141,7 @@
       <p>My dataset's theme is the American musical film Hamilton, a film released on Disney+ on July 3, 2020. The film is a live stage recording of the 2015 Broadway musical, in which Lin-Manuel Miranda wrote the music and lyrics. The musical details the life of Alexander Hamilton, telling the story through forty-six songs. I chose this musical as my dataset theme because I enjoyed the movie, considering it an innovative, novel way to demonstrate a musical. I would love to take a step further to explore more about the work.</p>
       <h3>Task 2: Current manifestations</h3>
       <p><b>Descriptive data</b></p>
-      <p>Since <i>Hamilton</i> is a film musical, IMDb contains detailed soundtrack credits regarding every song in the movie; information comprises the title, performers, composers, and administrators. One can also find descriptive data from music streaming platforms such as Apple Music and Spotify, where provides metadata, including artist name, song title, performers, producers, writers, and track duration. Moreover, Youtube lays out song titles, providers, copyright information, and each person’s role (e.g.harp, violin, keyboards) under every song’s description area. The user can save the song on the music and video platforms mentioned above, add it to the queue or playlist, or copy the link and share it.</p>
+      <p>Since <i>Hamilton</i> is a film musical, IMDb contains detailed soundtrack credits regarding every song in the movie; information comprises the title, performers, composers, and administrators. One can also find descriptive data from music streaming platforms such as Apple Music and Spotify, where provides metadata, including artist name, song title, performers, producers, writers, and track duration. Moreover, Youtube lays out song titles, providers, copyright information, and each instrument (e.g.harp, violin, keyboards) under the description area of each song. The user can save the song on the music and video platforms mentioned above, add it to the queue or playlist, or copy the link and share it.</p>
       <p><b>Descriptive data</b></p>
       <p>There are quite a few resources for the music scores. One can find free but partial scores on websites such as <a href="https://sheetmusic-free.com/alexander-hamilton-sheet-music-hamilton/">sheetmusic-free</a>. Further, it is possible to purchase full scores. For example, <a href="https://www.musicnotes.com/sheet-music/show/hamilton-an-american-musical">musicnotes</a> provides music score of every song with information regarding scoring (e.g.Piano, Singer Pro, Guitar);  <a href="https://www.totalsheetmusic.com/digital-sheet-music/hamilton-suite-from-645730/">totalsheetmusic</a> gives the customer option to buy full or partial scores; <a href="https://www.amazon.co.uk/Hamilton-Vocal-Selections-Lin-Manuel-Miranda/dp/057153967X">Amazon</a> has Kindle Edition and hard copies.</p>
       <p><b>Acoustic data</b></p>

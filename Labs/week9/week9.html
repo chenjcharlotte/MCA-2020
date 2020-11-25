@@ -3,6 +3,22 @@
     <head>
       <title>Week 9: Meanings behind Audio</title>
       <style>
+        * {
+        box-sizing: border-box;
+      }
+
+      .column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+      }
+
+      /* Clearfix (clear floats) */
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
       .container {
       max-width: 1012px;
       margin-left: auto;
@@ -175,54 +191,85 @@
       <p>I decided to use the same tracks from last week. The tracks came from <a href="https://freemusicarchive.org">freemusicarchive</a>. They are: <i>String Quartet in A Major, K. 464</i> composed by Mozart, <i>Cod Demotika</i> by Doctor Turtle, and <i>Dresscode</i> by Japanische Kampfhorspiele.
       <h3>Task 1.2: Spectrogram, MFCC, and Chromgrams</h3>
       <p><b>String Quartet in A Major, K. 464</b></p>
-        <img src="#" atl="Mozart Spectrogram" height="150">
-        <img src="#" atl="Mozart MFCC" height="150">
-        <img src="#" atl="Mozart Chromgrams" height="150">
+        <p><center>Spectrogram</center></p>
+          <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/Mozart%20Spectrogram.png?raw=true" atl="Mozart Spectrogram" height="150">
+        <p><center>MFCC</center></p>
+          <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/Mozart%20MFCC.png?raw=true" atl="Mozart MFCC" height="150">
+        <p><center>Chromgrams</center></p>
+          <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/Mozart%20Chromgrams.png?raw=true" atl="Mozart Chromgrams" height="150">
       <p><b>Cod Demotika</b></p>
-        <img src="#" atl="Cod Demotika Spectrogram" height="150">
-        <img src="#" atl="Cod Demotika MFCC" height="150">
-        <img src="#" atl="Cod Demotika Chromgrams" height="150">
+        <p><center>Spectrogram</center></p>
+          <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/Cod%20Demotika%20Spectrogram.png?raw=true" atl="Cod Demotika Spectrogram" height="150">
+        <p><center>MFCC</center></p>
+          <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/Cod%20Demotika%20MFCC.png?raw=true" atl="Cod Demotika MFCC" height="150">
+        <p><center>Chromgrams</center></p>
+          <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/Cod%20Demotika%20Chromgrams.png?raw=true" atl="Cod Demotika Chromgrams" height="150">
       <p><b>Dresscode</b></p>
-        <img src="#" atl="Dresscode Spectrogram" height="150">
-        <img src="#" atl="Dresscode MFCC" height="150">
-        <img src="#" atl="Dresscode Chromgrams" height="150">
-      <h3>Task 1.3: Annotation layers as CSV files</h3>
-      <table id="CSVs">
-        <tr>
-          <th>String Quartet in A Major, K. 464</th>
-          <td>Spectrogram</td>
-          <td>MFCC</td>
-          <td>Chromgrams</td>
-        </tr>
-        <tr>
-          <th>Cod Demotika</th>
-          <td>Spectrogram</td>
-          <td>MFCC</td>
-          <td>Chromgrams</td>
-        </tr>
-        <tr>
-          <th>Dresscode</th>
-          <td>Spectrogram</td>
-          <td>MFCC</td>
-          <td>Chromgrams</td>
-        </tr>
-      </table>
+        <p><center>Spectrogram</center></p>
+          <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/Dresscode%20Spectrogram.png?raw=true" atl="Dresscode Spectrogram" height="150">
+        <p><center>MFCC</center></p>
+          <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/Dresscode%20MFCC.png?raw=true" atl="Dresscode MFCC" height="150">
+        <p><center>Chromgrams</center></p>
+          <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/Dresscode%20Chromgrams.png?raw=true" atl="Dresscode Chromgrams" height="150">
       <h2>Task 2.1: Histograms</h2>
         <p><b>String Quartet in A Major, K. 464</b></p>
-          <p>Spectrogram</p>
-          <p>MFCC</p>
-          <p>Chromgrams</p>
+        <div class="row">
+          <div class="column">
+            <p><center>Spectrogram</center></p>
+            <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/mozartSpectAnalysis.png?raw=true">
+          </div>
+          <div class="column">
+            <p><center>MFCC</center></p>
+            <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/mozartMFCCAnalysis.png?raw=true">
+          </div>
+          <div class="column">
+            <p><center>Chromgrams</center></p>
+            <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/mozartChromAnalysis.png?raw=true">
+          </div>
+        </div>
+
         <p><b>Cod Demotika</b></p>
-          <p>Spectrogram</p>
-          <p>MFCC</p>
-          <p>Chromgrams</p>
+        <div class="row">
+          <div class="column">
+            <p><center>Spectrogram</center></p>
+            <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/codSpectAnalysis.png?raw=true">
+          </div>
+          <div class="column">
+            <p><center>MFCC</center></p>
+            <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/codMFCCAnalysis.png?raw=true">
+          </div>
+          <div class="column">
+            <p><center>Chromgrams</center></p>
+            <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/codChromAnalysis.png?raw=true">
+          </div>
         <p><b>Dresscode</b></p>
-          <p>Spectrogram</p>
-          <p>MFCC</p>
-          <p>Chromgrams</p>
+        <div class="row">
+          <div class="column">
+            <p><center>Spectrogram</center></p>
+            <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/dresscodeSpectAnalysis.png?raw=true">
+          </div>
+          <div class="column">
+            <p><center>MFCC</center></p>
+            <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/dresscodeMFCCAnalysis.png?raw=true">
+          </div>
+          <div class="column">
+            <p><center>Chromgrams</center></p>
+            <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/dresscodeChromAnalysis.png?raw=true">
+          </div>
         <h2>Task 2.2: Compare MFCC histograms</h2>
-          <p><b>String Quartet in A Major, K. 464 MFCC histogram</b></p>
-          <p><b>Dresscode MFCC histogram</b></p>
-          
+        <div class="row">
+          <div class="column">
+            <p><center>String Quartet in A Major, K. 464</center></p>
+            <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/mozartMFCCAnalysis.png?raw=true">
+          </div>
+          <div class="column">
+            <p><center>Cod Demotika</center></p>
+            <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/codMFCCAnalysis.png?raw=true">
+          </div>
+          <div class="column">
+            <p><center>Dresscode</center></p>
+            <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/dresscodeMFCCAnalysis.png?raw=true">
+          </div>
+        </div>
     </body>
   </html>

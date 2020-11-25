@@ -32,13 +32,10 @@ The content is divided into 9 weeks of labs. The activities from the [first week
  - [MuseScore File](https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week1/Youll_Be_Back.mscz)
  - [Notated Music PDF](https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week2/You'll_Be_Back.pdf)
  - [MusicXML File](https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week3/week3_Youll_Be_Back.musicxml) 
- - [MEI File](https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week3/week3_Youll_Be_Back.mei) 
+ - [Original MEI File](https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week3/week3_Youll_Be_Back.mei) 
  - [Verovio Page](https://chenjcharlotte.github.io/MCA-2020/verovio.html) 
  - [jSymbolic CSV File](https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week4/week4_jSymbolic1.csv) 
  - [First Modified MEI File(Week 5)](https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week5/week5_Youll_Be_Back.mei)
  - [Second Modeified MEI File(Week 7)](https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week7/week7_Youll_Be_Back.mei)
  - [Rendered MEI on HTML](https://chenjcharlotte.github.io/MCA-2020/week7Task2.html)
- 
-
-### References 
  

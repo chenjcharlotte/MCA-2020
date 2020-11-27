@@ -1,7 +1,7 @@
 <!DOCTYPE html>
   <html lang="en">
     <head>
-      <title>Week 4: Computational Analytics </title>
+      <title>Week 10: Audio Similarity and Transcription</title>
       <style>
       .container {
       max-width: 1012px;
@@ -16,7 +16,6 @@
         color: #24292e;
         background-color: #fff;
         margin-bottom: 100px;
-
     	}
     	h1 {
         padding-bottom: 10px;
@@ -29,106 +28,94 @@
         font-size: 24px;
         border-bottom: 1px solid #eaecef;
     	}
+
+
       table {
        width: 100%;
        margin-top:20px;
        margin-bottom: 30px;
        }
+       td {
+        text-align:center;
+        }
+      #matrix {
+        width: 33.3%;
+      }
 
+      img {
+        width: 100%;
+      }
 
-      #right {
-      text-align: right;
-    	border: none;
-       }
+      tr {
+          border: 1px solid #c6cbd1;
+      	  }
 
-    #menu {
-    display: block;
-    width: 100%;
-    overflow: auto;
-    margin-right: 0px;
-    margin-left: 0px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border: 1px solid #c6cbd;
-    border-collapse:collapse;
-    display: table-row-group;
-    vertical-align: middle;
-    	  }
+      th, td {
+      	padding: 6px 13px;
+      	border: 1px solid #dfe2e5;
+      	  }
+      a {
+      	text-decoration: none;
+      	color: #0366d6;
+      	  }
 
-    #menu, tr {
-        border: 1px solid #c6cbd1;
-    	  }
+        .dropbtn {
+        background-color: #0366d6;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+      }
 
-    #menu, th, td {
-    	padding: 6px 13px;
-    	border: 1px solid #dfe2e5;
-    	  }
-    #menu, a {
-    	text-decoration: none;
-    	color: #0366d6;
-    	  }
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
 
-      .dropbtn {
-      background-color: #0366d6;
-      color: white;
-      padding: 16px;
-      font-size: 16px;
-      border: none;
-    }
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 280px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
 
-    .dropdown {
-      position: relative;
-      display: inline-block;
-    }
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
 
-    .dropdown-content {
-      display: none;
-      position: absolute;
-      background-color: #f1f1f1;
-      min-width: 280px;
-      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-      z-index: 1;
-    }
+      .dropdown-content a:hover {background-color: #ddd;}
 
-    .dropdown-content a {
-      color: black;
-      padding: 12px 16px;
-      text-decoration: none;
-      display: block;
-    }
+      .dropdown:hover .dropdown-content {display: block;}
 
-    .dropdown-content a:hover {background-color: #ddd;}
+      .dropdown:hover .dropbtn {background-color: #367dbf;}
 
-    .dropdown:hover .dropdown-content {display: block;}
+      #myBtn {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        z-index: 99;
+        font-size: 18px;
+        border: none;
+        outline: none;
+        background-color: #0366d6;
+        color: white;
+        cursor: pointer;
+        padding: 15px;
+        border-radius: 4px;
+      }
+        #myBtn:hover {
+          background-color: #367dbf;
+        }
 
-    .dropdown:hover .dropbtn {background-color: #367dbf;}
-
-    #myBtn {
-      display: none;
-      position: fixed;
-      bottom: 20px;
-      right: 30px;
-      z-index: 99;
-      font-size: 18px;
-      border: none;
-      outline: none;
-      background-color: #0366d6;
-      color: white;
-      cursor: pointer;
-      padding: 15px;
-      border-radius: 4px;
-    }
-
-    #myBtn:hover {
-      background-color: #367dbf;
-    }
-
-    img{
-    width:100%
-    }
-      </style>
-    </head>
-    <body>
+        </style>
+      </head>
+      <body>
 
     	<div class="container">
       <body>
@@ -172,129 +159,63 @@
             <a href="https://chenjcharlotte.github.io/MCA-2020/Labs/week10/week10.html">Week 10: Audio Similarity and Transcription</a>
           </div>
         </div>
-      <h2>Week 4: Computational Analytics</h2>
-      <h3>Task 1: jSymbolic</h3>
-      <p>First, I exported <i>You'll Be Back</i> as a <a href="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week4/week4_Youll_Be_Back.mid">MIDI file</a>. Then, I followed instructions and generated a jSymbolic of the piece. I have selected a range of features and here is the <a href="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week4/week4_jSymbolic1.csv">CSV file</a>.</p>
-      <p>The table includes the basic fatures of the analysis, such as number of pitches, number of pitch classes, range, mean pitch, and mean pitch class. There are some interesting results from these basic features. For example, while the number of pitch classes is 11, there is only one common pitch class of this music piece. Further, I also selected some other features that I think are interesting and relevant to my piece. For instance, the pitch skewness of my piece is -0.9701, indicating that an asymmetrical pitch distribution to the left of the mean pitch. Also, the data shows that the middle register appears to be more significant than bass or high registers in this music piece.</p>
-      <table id="CSVfeatures">
+      <h2>Week 10: Audio Similarity and Transcription</h2>
+      <h3>Task 1: Similarity</h3>
+      <div align="center">
+        <img id="matrix" src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week_10/week10_Task1.png?raw=true" alt="Similarity matrix">
+      </div>
+      <p>I replaced the <i>country</i> tracks with the three tracks from last week.
+        They are Mozart's String Quartet in A Major, K. 464 (track 7), Doctor Turtle's Cod Demotika (track 8), and Japanische Kampfhorspiele's Dresscode (track 9).
+         I was surprised to see that track 9 and track 2 are relatively similar to each other since the former is classified as death-metal, whereas the latter is a classical piece.
+         Additionally, although track 3 and track 7 are classical, and the matrix indeed shows a relatively high correlation between them, personally, I found them quite distinctive when I played the tracks.
+         That is to say, from a very subjective point of view, I might not consider the two pieces 'similar'. However, as shown, the correlation is relatively high.
+         Besides these, the other results from the matrix match my expectations. For instance, track 7 and track 4 are indeed quite different - from what I saw on the matrix and when I listened to them. </p>
+      <h3>Task 2: Transcription</h3>
+      <p>For the second task, I used the music I transcribed from the beginning of the semester: <i>You'll be back</i> by Lin-Manuel Miranda.
+         First, I exported the piece as a wave file.
+         Then, I used SonicVisualizer to transcribe the wave file to a <a href="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week_10/week10_Task2.mid">midi file</a>,
+         and then I exported the midi as a notated version.
+         The following table documented comparison between the original composition and the transcribed version.
+         To see more details of each notated piece, you can access <a href="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week2/You'll_Be_Back.pdf">the PDF version of the original composition</a> and <a href="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week_10/week10_Task2PDF.pdf">the PDF version of the transcribed version</a>.</p>
+         <p><i>Please refresh the page if the images do not load.</i></p>
+         <p>The original composition and transcribed version are different.
+           In fact, measures from each file appear to be distinctive.
+           At first glance, the transcribed version does not have lyrics, while I have included lyrics in the original composition.
+           Meanwhile, the data regarding the title, songwriter, and album is lost.
+           Also, the transcribed version only has two staves.
+           In contrast, the original composition has three, including a voice staff that the transcribed piece does not have.
+           Interestingly, the time signature is correctly transcribed. This result differs from what some of my peers have.
+           However, the transcribed file looks more complicated and perplexed, particularly for someone like me, who does not know how to read music notes.
+           Perhaps because of this complexity, the transcribe piece looks more lengthy than the original one. Acoustically, they sound different when I played them.
+           Correspondingly, one cannot hear the voice staff from the transcribed piece but can only hear the piano's sound.
+           Subjectively, the transcribed file sounds quite 'off' and 'broken,' especially when it comes to tempo.
+           Since some parts sound quite similar (e.g., 1-40 in the transcribed version) but others sound really different (e.g., 45-68 in the transcribed version), one may need to listen carefully in order to tell the transcribed file actually derived from the original composition. </p>
+      <table id="musicSheet">
         <tr>
-          <th>Feature</th>
-          <th>Data</th>
-          <th>Feature</th>
-          <th>Data</th>
+          <th>Original Composition</th>
+          <th>Transcribed Version</th>
         </tr>
         <tr>
-          <td>Number of Pitches</td>
-          <td>34</td>
-          <td>Number of Pitch Classes</td>
-          <td>11</td>
+          <td><img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week2/page1.png?raw=true" alt="Original composition page 1"/></td>
+          <td><img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week_10/week10_Task2page1.png?raw=true" alt="transcribed composition page 1"/></td>
         </tr>
         <tr>
-          <td>Number of Common Pitches</td>
-          <td>4</td>
-          <td>Number of Common Pitches Classes</td>
-          <td>1</td>
+          <td><img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week2/page2-3.png?raw=true" alt="Original composition page 2-3"/></td>
+          <td><img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week_10/week10_Task2page2-3.png?raw=true" alt="Transcribed composition page 2-3"/></td>
         </tr>
         <tr>
-          <td>Range</td>
-          <td>48</td>
-          <td>Importance of Bass Register</td>
-          <td>0.1628</td>
+          <td><img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week2/page4-5.png?raw=true" alt="Original composition page 4-5"/></td>
+          <td><img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week_10/week10_Task2page4-5.png?raw=true" alt="Transcribed composition page 4-5"/></td>
         </tr>
         <tr>
-          <td>Importance of Middle Register</td>
-          <td>0.7487</td>
-          <td>Importance of High Register</td>
-          <td>0.0885</td>
+          <td><img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week2/page6-7.png?raw=true" alt="Original composition page 6-7"/></td>
+          <td><img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week_10/week10_Task2page6-7.png?raw=true" alt="Transcribed composition page 6-7"/></td>
         </tr>
         <tr>
-          <td>Dominant Spread</td>
-          <td>3</td>
-          <td>Strong Tonal Centres</td>
-          <td>2</td>
-        </tr>
-        <tr>
-          <td>Mean Pitch</td>
-          <td>63.72</td>
-          <td>Mean Pitch Class</td>
-          <td>5.276</td>
-        </tr>
-        <tr>
-          <td>Most Common Pitch</td>
-          <td>71</td>
-          <td>Most Common Pitch Class</td>
-          <td>2</td>
-        </tr>
-        <tr>
-          <td>Prevalence of Most Common Pitch</td>
-          <td>0.1628</td>
-          <td>Prevalence of Most Common Pitch Class</td>
-          <td>0.2389</td>
-        </tr>
-        <tr>
-          <td>Relative Prevalence of Top Pitches</td>
-          <td>0.8913</td>
-          <td>Relative Prevalence of Top Pitch Classes</td>
-          <td>0.7481</td>
-        </tr>
-        <tr>
-          <td>Interval Between Most Prevalent Pitches</td>
-          <td>4</td>
-          <td>Interval Between Most Prevalent Pitch Classes</td>
-          <td>9</td>
-        </tr>
-        <tr>
-          <td>Pitch Variability</td>
-          <td>9.338</td>
-          <td>Pitch Class Variability</td>
-          <td>3.723</td>
-        </tr>
-        <tr>
-          <td>Pitch Class Variability After Folding</td>
-          <td>2.287</td>
-          <td>Pitch Skewness</td>
-          <td>-0.9701</td>
-        </tr>
-        <tr>
-          <td>Pitch Class Skewness</td>
-          <td>1.028</td>
-          <td>Pitch Class Skewness After Folding</td>
-          <td>1.163</td>
-        </tr>
-        <tr>
-          <td>Pitch Kurtosis</td>
-          <td>7.123</td>
-          <td>Pitch Class Kurtosis</td>
-          <td>4.778</td>
-        </tr>
-        <tr>
-          <td>Pitch Class Kurtosis After Folding</td>
-          <td>8.532</td>
-          <td>First Pitch</td>
-          <td>55</td>
+          <td><img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week2/page8.png?raw=true" alt="Original composition page 8"/></td>
+          <td><img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week_10/week10_Task2page8-9.png?raw=true" alt="Transcribed composition page 8-9"/></td>
         </tr>
       </table>
 
-      <h2>Task 2: music21</h2>
-      <p>I used the Python notebook and generated a piano roll and pitch histogram of You'll Be Back by using music21.</p>
-
-      <table id="music21">
-        <tr>
-          <th>Interpretations</th>
-          <th>Graphs</th>
-        </tr>
-        <tr>
-          <td>This is the histogram of the pitch, which demonstrates that the most common pitch is B4, a result that matches the jSymbolic results above (Most Common Pitch: 71). The graph shows the importance of the middle register, which is a fraction of notes between MIDI pitches 55 and 72.</td>
-          <td><img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week4/week4_music21Graph.png?raw=true" alt="Graph"></td>
-        </tr>
-        <tr>
-          <td>The scatter plot is plotted quarter length against the pitch. According to the graph, the data regarding pitch is consistent with the last graph and the analysis from jSymbolic, with B5 appearing to be the most common pitch throughout the song.</td>
-          <td><img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week4/week4_myScatterPlot.png?raw=true" alt="ScatterPlot"></td>
-        </tr>
-        <tr>
-          <td>There are 37 measures in total, and I decided to analyse the entire piece I transcribed. The graph here is a virtual representation of piano roll. The number of measures is represented on the horizontal axis against the pitch on the vertical axis. When the x-axis of the graph shows more information regarding the time, the pitch matches the previous analysis, with the middle register seeming more significant than bass and high voice.</td>
-          <td><img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week4/week4_QuarterLengthByPitch.png?raw=true" alt="QuarterLengthByPitch"></td>
-        </tr>
-      </table>
     </body>
   </html>

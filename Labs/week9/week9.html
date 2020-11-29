@@ -3,22 +3,15 @@
     <head>
       <title>Week 9: Meanings behind Audio</title>
       <style>
-        * {
+      * {
         box-sizing: border-box;
       }
-
       .column {
         float: left;
         width: 33.33%;
         padding: 5px;
       }
 
-      /* Clearfix (clear floats) */
-      .row::after {
-        content: "";
-        clear: both;
-        display: table;
-      }
       .container {
       max-width: 1012px;
       margin-left: auto;
@@ -54,34 +47,15 @@
        margin-bottom: 30px;
        }
 
-      #right {
-      text-align: right;
-    	border: none;
-       }
-
-    #menu {
-    display: block;
-    width: 100%;
-    overflow: auto;
-    margin-right: 0px;
-    margin-left: 0px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border: 1px solid #c6cbd;
-    border-collapse:collapse;
-    display: table-row-group;
-    vertical-align: middle;
-    	  }
-
-    #menu, tr {
+      tr {
         border: 1px solid #c6cbd1;
     	  }
 
-    #menu, th, td {
-    	padding: 6px 13px;
+      th, td {
+    	padding: 5px 15px;
     	border: 1px solid #dfe2e5;
     	  }
-    #menu, a {
+      a {
     	text-decoration: none;
     	color: #0366d6;
     	  }
@@ -140,6 +114,15 @@
     #myBtn:hover {
       background-color: #367dbf;
     }
+
+    #navleft{
+        border: none;
+    }
+    #navright {
+        position: absolute;
+        right: 15px;
+        border: none;
+      }
       </style>
     </head>
     <body>
@@ -183,48 +166,77 @@
             <a href="https://chenjcharlotte.github.io/MCA-2020/Labs/week7/week7.html">Week 7: Challenges to Curation</a>
             <a href="https://chenjcharlotte.github.io/MCA-2020/Labs/week8/week8.html">Week 8: Music as Sound</a>
             <a href="https://chenjcharlotte.github.io/MCA-2020/Labs/week9/week9.html">Week 9: Meanings behind Audio</a>
-            <a href="https://chenjcharlotte.github.io/MCA-2020/Labs/week_10/week10.html">Week 10: Audio Similarity and Transcription</a>
+            <a href="https://chenjcharlotte.github.io/MCA-2020/Labs/week10/week10.html">Week 10: Audio Similarity and Transcription</a>
           </div>
         </div>
       <h2>Week 9: Meanings behind Audio</h2>
       <h3>Task 1.1: Identify three music tracks</h3>
-      <p>I decided to use the same tracks from last week. The tracks came from <a href="https://freemusicarchive.org">freemusicarchive</a>. They are: <i>String Quartet in A Major, K. 464</i> composed by Mozart, <i>Cod Demotika</i> by Doctor Turtle, and <i>Dresscode</i> by Japanische Kampfhorspiele.
+      <p>I decided to use the same tracks from last week.
+        The tracks came from <a href="https://freemusicarchive.org">freemusicarchive</a>. T
+        hey are: <i>String Quartet in A Major, K. 464</i> composed by Mozart,
+                 <i>Cod Demotika</i> by Doctor Turtle, and
+                 <i>Dresscode</i> by Japanische Kampfhorspiele.
       <h3>Task 1.2: Spectrogram, MFCC, and Chromagram</h3>
+      <p><i>Please click the image to view full size. If images do not load, please refresh the page. </i></p>
       <p><b>String Quartet in A Major, K. 464</b></p>
         <p><center>Spectrogram</center></p>
-          <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/Mozart%20Spectrogram.png?raw=true" atl="Mozart Spectrogram" height="150">
+          <a href="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/Mozart%20Spectrogram.png?raw=true">
+            <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/Mozart%20Spectrogram.png?raw=true" atl="Mozart Spectrogram" height="150">
+          </a>
         <p><center>MFCC</center></p>
-          <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/Mozart%20MFCC.png?raw=true" atl="Mozart MFCC" height="150">
+          <a href="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/Mozart%20MFCC.png?raw=true">
+            <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/Mozart%20MFCC.png?raw=true" atl="Mozart MFCC" height="150">
+          </a>
         <p><center>Chromagram</center></p>
-          <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/Mozart%20Chromgrams.png?raw=true" atl="Mozart Chromagram" height="150">
+          <a href="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/Mozart%20Chromgrams.png?raw=true">
+            <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/Mozart%20Chromgrams.png?raw=true" atl="Mozart Chromagram" height="150">
+          </a>
       <p><b>Cod Demotika</b></p>
         <p><center>Spectrogram</center></p>
-          <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/Cod%20Demotika%20Spectrogram.png?raw=true" atl="Cod Demotika Spectrogram" height="150">
+          <a href="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/Cod%20Demotika%20Spectrogram.png?raw=true">
+            <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/Cod%20Demotika%20Spectrogram.png?raw=true" atl="Cod Demotika Spectrogram" height="150">
+          </a>
         <p><center>MFCC</center></p>
-          <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/Cod%20Demotika%20MFCC.png?raw=true" atl="Cod Demotika MFCC" height="150">
+          <a href="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/Cod%20Demotika%20MFCC.png?raw=true">
+            <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/Cod%20Demotika%20MFCC.png?raw=true" atl="Cod Demotika MFCC" height="150">
+          </a>
         <p><center>Chromagram</center></p>
-          <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/Cod%20Demotika%20Chromgrams.png?raw=true" atl="Cod Demotika Chromagram" height="150">
+          <a href="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/Cod%20Demotika%20Chromgrams.png?raw=true">
+            <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/Cod%20Demotika%20Chromgrams.png?raw=true" atl="Cod Demotika Chromagram" height="150">
+          </a>
       <p><b>Dresscode</b></p>
         <p><center>Spectrogram</center></p>
-          <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/Dresscode%20Spectrogram.png?raw=true" atl="Dresscode Spectrogram" height="150">
+          <a href="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/Dresscode%20Spectrogram.png?raw=true">
+            <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/Dresscode%20Spectrogram.png?raw=true" atl="Dresscode Spectrogram" height="150">
+          </a>
         <p><center>MFCC</center></p>
-          <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/Dresscode%20MFCC.png?raw=true" atl="Dresscode MFCC" height="150">
+          <a href="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/Dresscode%20MFCC.png?raw=true">
+            <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/Dresscode%20MFCC.png?raw=true" atl="Dresscode MFCC" height="150">
+          </a>
         <p><center>Chromagram</center></p>
-          <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/Dresscode%20Chromgrams.png?raw=true" atl="Dresscode Chromagram" height="150">
-      <h2>Task 2.1: Histograms</h2>
+          <a href="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/Dresscode%20Chromgrams.png?raw=true">
+            <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/Dresscode%20Chromgrams.png?raw=true" atl="Dresscode Chromagram" height="150">
+          </a>
+      <h3>Task 2.1: Histograms</h3>
         <p><b>String Quartet in A Major, K. 464</b></p>
         <div class="row">
           <div class="column">
             <p><center>Spectrogram</center></p>
-            <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/mozartSpectAnalysis.png?raw=true">
+            <a href="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/mozartSpectAnalysis.png?raw=true">
+              <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/mozartSpectAnalysis.png?raw=true">
+            </a>
           </div>
           <div class="column">
             <p><center>MFCC</center></p>
-            <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/mozartMFCCAnalysis.png?raw=true">
+            <a href="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/mozartMFCCAnalysis.png?raw=true">
+              <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/mozartMFCCAnalysis.png?raw=true">
+            </a>
           </div>
           <div class="column">
             <p><center>Chromagram</center></p>
-            <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/mozartChromAnalysis.png?raw=true">
+            <a href="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/mozartChromAnalysis.png?raw=true">
+              <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/mozartChromAnalysis.png?raw=true">
+            </a>
           </div>
         </div>
 
@@ -232,43 +244,61 @@
         <div class="row">
           <div class="column">
             <p><center>Spectrogram</center></p>
-            <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/codSpectAnalysis.png?raw=true">
+            <a href="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/codSpectAnalysis.png?raw=true">
+              <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/codSpectAnalysis.png?raw=true">
+            </a>
           </div>
           <div class="column">
             <p><center>MFCC</center></p>
-            <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/codMFCCAnalysis.png?raw=true">
+            <a href="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/codMFCCAnalysis.png?raw=true">
+              <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/codMFCCAnalysis.png?raw=true">
+            </a>
           </div>
           <div class="column">
             <p><center>Chromagram</center></p>
-            <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/codChromAnalysis.png?raw=true">
+            <a href="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/codChromAnalysis.png?raw=true">
+              <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/codChromAnalysis.png?raw=true">
+            </a>
           </div>
         <p><b>Dresscode</b></p>
         <div class="row">
           <div class="column">
             <p><center>Spectrogram</center></p>
-            <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/dresscodeSpectAnalysis.png?raw=true">
+            <a href="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/dresscodeSpectAnalysis.png?raw=true">
+              <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/dresscodeSpectAnalysis.png?raw=true">
+            </a>
           </div>
           <div class="column">
             <p><center>MFCC</center></p>
-            <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/dresscodeMFCCAnalysis.png?raw=true">
+            <a href="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/dresscodeMFCCAnalysis.png?raw=true">
+              <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/dresscodeMFCCAnalysis.png?raw=true">
+            </a>
           </div>
           <div class="column">
             <p><center>Chromagram</center></p>
-            <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/dresscodeChromAnalysis.png?raw=true">
+            <a href="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/dresscodeChromAnalysis.png?raw=true">
+              <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/dresscodeChromAnalysis.png?raw=true">
+            </a>
           </div>
-        <h2>Task 2.2: Compare chroma histograms</h2>
+        <h3>Task 2.2: Compare chroma histograms</h3>
         <div class="row">
           <div class="column">
             <p><center>String Quartet in A Major, K. 464</center></p>
-            <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/mozartChromAnalysis.png?raw=true">
+            <a href="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/mozartChromAnalysis.png?raw=true">
+              <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/mozartChromAnalysis.png?raw=true">
+            </a>
           </div>
           <div class="column">
             <p><center>Cod Demotika</center></p>
-            <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/codChromAnalysis.png?raw=true">
+            <a href="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/codChromAnalysis.png?raw=tru">
+              <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/codChromAnalysis.png?raw=true">
+            </a>
           </div>
           <div class="column">
             <p><center>Dresscode</center></p>
-            <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/dresscodeChromAnalysis.png?raw=true">
+            <a href="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/dresscodeChromAnalysis.png?raw=true">
+              <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week9/dresscodeChromAnalysis.png?raw=true">
+            </a>
           </div>
         </div>
         <p>For the three tracks, I decided to compare the histograms for chroma features.
@@ -280,6 +310,16 @@
            Additionally, Cod Demotika was played in a very 'static' manner, consisting of a melodic that repeats.
            In contrast, These characteristics indeed match my experience when I listened to them.
            However, I found it surprising that some distributions of pitches in Dresscode, which is death metal, and Cod Demotika, which is folk, resemble.
-           If not looking at the histograms, I expected that the pitches of three tracks are completely different without any similarities. </p>
+           If not looking at the histograms, I expected that the pitches of the three tracks are completely different without any similarities. </p>
+        <table>
+            <tr>
+                <td id="navleft"> Previous:
+                  <a href="https://chenjcharlotte.github.io/MCA-2020/Labs/week8/week8.html">Week 8: Music as Sound</a>
+                </td>
+                <td id="navright"> Next:
+                  <a href="https://chenjcharlotte.github.io/MCA-2020/Labs/week10/week10.html">Week 10: Audio Similarity and Transcription</a>
+                </td>
+            </tr>
+       </table>
     </body>
   </html>

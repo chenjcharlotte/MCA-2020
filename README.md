@@ -34,10 +34,10 @@ The content is divided into nine weeks of labs. The [first week](https://chenjch
  - [MusicXML File](https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week3/week3_Youll_Be_Back.musicxml) 
  - [Original MEI File](https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week3/week3_Youll_Be_Back.mei) 
  - [Verovio Page](https://chenjcharlotte.github.io/MCA-2020/verovio.html) 
+ - [Original MIDI File](https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week4/week4_Youll_Be_Back.mid)
  - [jSymbolic CSV File](https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week4/jSymbolic.csv) 
- - [Modified MEI File(Week 5)](https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week5/week5_Youll_Be_Back.mei)
- - [Modeified MEI File(Week 7)](https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week7/week7_Youll_Be_Back.mei)
+ - [Modeified MEI File](https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week7/week7_Youll_Be_Back.mei)
  - [Rendered MEI on HTML](https://chenjcharlotte.github.io/MCA-2020/week7Task2.html)
- - [Transcribed MIDI File (Week 10)](https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week_10/week10_Task2.mid)
+ - [Transcribed MIDI File](https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week_10/week10_Task2.mid)
  - [Transcribed Notated Music PDF](https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week_10/week10_Task2PDF.pdf)
  

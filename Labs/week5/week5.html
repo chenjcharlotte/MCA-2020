@@ -29,14 +29,11 @@
         font-size: 24px;
         border-bottom: 1px solid #eaecef;
     	}
-    #menu, a {
+      a {
     	text-decoration: none;
     	color: #0366d6;
     	  }
-    .text-table {
-    	color: #24292e;
-    	border:none;
-    	  }
+
       .dropbtn {
       background-color: #0366d6;
       color: white;
@@ -91,6 +88,14 @@
     #myBtn:hover {
       background-color: #367dbf;
     }
+    #navleft{
+        border: none;
+    }
+    #navright {
+        position: absolute;
+        right: 15px;
+        border: none;
+      }
       </style>
     </head>
     <body>
@@ -133,23 +138,24 @@
             <a href="https://chenjcharlotte.github.io/MCA-2020/Labs/week7/week7.html">Week 7: Challenges to Curation</a>
             <a href="https://chenjcharlotte.github.io/MCA-2020/Labs/week8/week8.html">Week 8: Music as Sound</a>
             <a href="https://chenjcharlotte.github.io/MCA-2020/Labs/week9/week9.html">Week 9: Meanings behind Audio</a>
-            <a href="https://chenjcharlotte.github.io/MCA-2020/Labs/week_10/week10.html">Week 10: Audio Similarity and Transcription</a>
+            <a href="https://chenjcharlotte.github.io/MCA-2020/Labs/week10/week10.html">Week 10: Audio Similarity and Transcription</a>
           </div>
         </div>
       <h2>Week 5: Standards in Curation</h2>
       <h3>Task 1: Metadata Elementse</h3>
       <p>If I have 1,000 different MEI files that I would include in my GitHub repository. I will include the following metadata elements to describe the music in the dataset.</p>
+      <div style="line-height:2.2">
       <ol>
         <b><li>Description of Encoding</li></b>
           <ul>
-            <li><b>project description:</b> the aim for the encoded musical file, entities who are involved in the project (e.g.funding organisations), and other relevant information regarding the project.</li>
+            <li><b>project description:</b> the aim for the encoded musical file, entities involved in the project (e.g.funding organisations), and other relevant information regarding the project.</li>
             <li><b>encoding description:</b> the relationship between the transcribed file and the source of the orignal file.</li>
             <li><b>editorial statement:</b> the detailed practices that applied during the encoding process.</li>
             <li><b>application information:</b> the information regarding any application on the file.</li>
           </ul>
         <b><li>Description of File</li></b>
           <ul>
-            <li><b>identifier:</b> a unique numeric sting for each music piece.</li>
+            <li><b>identifier:</b> a unique numeric string for each music piece.</li>
             <li><b>title:</b> the name of the musical composition.</li>
             <li><b>subtitle:</b> the subordinate title (if any) of the music piece.</li>
             <li><b>transcriber:</b> the name of the individual or organisation who transcribes the music.</li>
@@ -175,7 +181,20 @@
             <li><b>change:</b> information about the each alternation of MEI file.</li>
           </ul>
       </ol>
+    </div>
       <h3>Task 2: Modification of MEI Document</h3>
       <p>Based on the list above, I modified and enriched <a href="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week5/week5_Youll_Be_Back.mei">the MEI document</a> where possible.</p>
+
+      <table>
+         <tr>
+             <td id="navleft"> Previous:
+               <a href="https://chenjcharlotte.github.io/MCA-2020/Labs/week4/week4.html">Week 4: Computational Analytics</a>
+             </td>
+             <td id="navright"> Next:
+               <a href="https://chenjcharlotte.github.io/MCA-2020/Labs/week7/week7.html">Week 7: Challenges to Curation</a>
+             </td>
+         </tr>
+      </table>
+
     </body>
   </html>

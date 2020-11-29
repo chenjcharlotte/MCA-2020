@@ -38,34 +38,15 @@
        margin-bottom: 30px;
        }
 
-      #right {
-      text-align: right;
-    	border: none;
-       }
-
-    #menu {
-    display: block;
-    width: 100%;
-    overflow: auto;
-    margin-right: 0px;
-    margin-left: 0px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border: 1px solid #c6cbd;
-    border-collapse:collapse;
-    display: table-row-group;
-    vertical-align: middle;
-    	  }
-
-    #menu, tr {
+       tr {
         border: 1px solid #c6cbd1;
     	  }
 
-    #menu, th, td {
-    	padding: 6px 13px;
+    th, td {
+    	padding: 5px 15px;
     	border: 1px solid #dfe2e5;
     	  }
-    #menu, a {
+     a {
     	text-decoration: none;
     	color: #0366d6;
     	  }
@@ -124,6 +105,15 @@
     #myBtn:hover {
       background-color: #367dbf;
     }
+
+    #navleft{
+        border: none;
+    }
+    #navright {
+        position: absolute;
+        right: 15px;
+        border: none;
+      }
       </style>
     </head>
     <body>
@@ -167,7 +157,7 @@
             <a href="https://chenjcharlotte.github.io/MCA-2020/Labs/week7/week7.html">Week 7: Challenges to Curation</a>
             <a href="https://chenjcharlotte.github.io/MCA-2020/Labs/week8/week8.html">Week 8: Music as Sound</a>
             <a href="https://chenjcharlotte.github.io/MCA-2020/Labs/week9/week9.html">Week 9: Meanings behind Audio</a>
-            <a href="https://chenjcharlotte.github.io/MCA-2020/Labs/week_10/week10.html">Week 10: Audio Similarity and Transcription</a>
+            <a href="https://chenjcharlotte.github.io/MCA-2020/Labs/week10/week10.html">Week 10: Audio Similarity and Transcription</a>
           </div>
         </div>
       <h2>Week 8: Music as Sound</h2>
@@ -175,7 +165,7 @@
       <p>I identified three music tracks from <a href="https://freemusicarchive.org">freemusicarchive</a>. They are: <i>String Quartet in A Major, K. 464</i> composed by Mozart, <i>Cod Demotika</i> by Doctor Turtle, and <i>Dresscode</i> by Japanische Kampfhorspiele.
 
       <h3>Task 1.2: Metadata</h3>
-      <table id="MetaData">
+      <table>
         <tr>
           <th>Title</th>
           <th>Artist</th>
@@ -237,31 +227,58 @@
           <td>02/25/2009</td>
         </tr>
       </table>
-        <h2>Task 2.1: Waveform and spectrogram</h2>
-        <h3><b>Mozart: String Quartet in A Major, K. 464</b></h3>
+        <h3>Task 2.1: Waveform and spectrogram</h3>
+        <p><i>Please click the image to view full size. If images do not load, please refresh the page. </i></p>
+        <p><b>Mozart: String Quartet in A Major, K. 464</b></p>
         <p><center>Waveform</center></p>
-          <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week8/Mozart%20Waveform.png?raw=true" atl="Mozart Waveform" height="150">
+          <a href="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week8/Mozart%20Waveform.png?raw=true">
+            <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week8/Mozart%20Waveform.png?raw=true" atl="Mozart Waveform" height="150">
+          </a>
         <p><center>Spectrogram</center></p>
-          <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week8/Mozart%20Spectrogram.png?raw=true" atl="Mozart Spectrogram" height="150">
-        <h3><b>Cod Demotika</b></h3>
+          <a href="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week8/Mozart%20Spectrogram.png?raw=true">
+            <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week8/Mozart%20Spectrogram.png?raw=true" atl="Mozart Spectrogram" height="150">
+          </a>
+        <p><b>Cod Demotika</b></p>
         <p><center>Waveform</center></p>
-          <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week8/Cod%20Demotika%20Waveform.png?raw=true" atl="Cod Demotika Waveform" height="150">
+          <a href="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week8/Cod%20Demotika%20Waveform.png?raw=true">
+            <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week8/Cod%20Demotika%20Waveform.png?raw=true" atl="Cod Demotika Waveform" height="150">
+          </a>
         <p><center>Spectrogram</center></p>
-          <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week8/Cod%20Demotika%20Spectrogram.png?raw=true" atl="Cod Demotika Spectrogram" height="150">
-        <h3><b>Dresscode</b></h3>
+          <a href="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week8/Cod%20Demotika%20Spectrogram.png?raw=true">
+            <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week8/Cod%20Demotika%20Spectrogram.png?raw=true" atl="Cod Demotika Spectrogram" height="150">
+          </a>
+        <p><b>Dresscode</b></p>
         <p><center>Waveform</center></p>
-          <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week8/Dresscode%20Waveform.png?raw=true" atl="Dresscode Waveform" height="150">
+          <a href="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week8/Dresscode%20Waveform.png?raw=true">
+            <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week8/Dresscode%20Waveform.png?raw=true" atl="Dresscode Waveform" height="150">
+          </a>
         <p><center>Spectrogram</center></p>
+        <a href="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week8/Dresscode%20Spectrogram.png?raw=true">
           <img src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week8/Dresscode%20Spectrogram.png?raw=true" atl="Dresscode Spectrogram" height="150">
-      <h2>Task 2.2: Time-frequency analysis vs. Waveform</h2>
+        </a>
+    <h3>Task 2.2: Time-frequency analysis vs. Waveform</h3>
       <p>One of the advantages of a time-frequency analysis over a waveform based analysis is that it is an efficient tool for getting more information.
-        More specifically, from time-frequency plot, we can see the change of the chords through time.
+        More specifically, from the time-frequency plot, we can see the change of the chords through time.
         Additionally, each note in each chord is displayed clearly in the spectrogram.
-        The information is easy to read - with the black background indicating silence, we know that loud events appear to be bright.
+        The information is easy to read - with the black background indicating silence.
+        We know those loud events appear to be bright.
         In contrast, traditional waveform based analysis only shows how amplitude changes over time in a bipolar manner.
-        The spectrogram is thus more informative and instructive. For instance, from the waveform of Dresscode, we can tell how loud the signal from the perceived amplitude,
-        and we can also see the frequency from wavelength - the longer the wavelength, the lower the frequency. However, we cannot get any detailed information of individual frequency, nor how the frequency changes over time.
-        When looking at the spectrogram of the same song,
-        we can view a range of frequencies, and by looking at the changes of colours, we know how loud the events are and where the chord changes.</p>
+        The spectrogram is thus more informative and instructive.
+        For instance, from the waveform of Dresscode, we can tell how loud the signal from the perceived amplitude,
+        and we can also see the frequency from wavelength - the longer the wavelength,
+        the lower the frequency. However, we cannot get any detailed information on individual frequency or how it changes over time.
+        When looking at the spectrogram of the same song, we can view a range of frequencies,
+        and by looking at the changes of colors, we know how loud the events are and where the chord changes.</p>
+
+        <table>
+             <tr>
+                 <td id="navleft"> Previous:
+                   <a href="https://chenjcharlotte.github.io/MCA-2020/Labs/week7/week7.html">Week 7: Challenges to Curation</a>
+                 </td>
+                 <td id="navright"> Next:
+                   <a href="https://chenjcharlotte.github.io/MCA-2020/Labs/week9/week9.html">Week 9: Meanings behind Audio</a>
+                 </td>
+             </tr>
+        </table>
     </body>
   </html>

@@ -41,3 +41,6 @@ The content is divided into nine weeks of labs. The [first week](https://chenjch
  - [Transcribed MIDI File](https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week_10/week10_Task2.mid)
  - [Transcribed Notated Music PDF](https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week_10/week10_Task2PDF.pdf)
  
+ 
+ 
+ Next: [Week 1: Music Data](https://chenjcharlotte.github.io/MCA-2020/Labs/week1/week1.html")

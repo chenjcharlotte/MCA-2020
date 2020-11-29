@@ -1,4 +1,4 @@
-# Music Curation and Analytics 2020
+# Music Curation and Analytics 20-21
 
 ## Table of Contents 
 

@@ -6,7 +6,7 @@
   <fileDesc>
       <titleStmt>
         <title xml:id="songtitle" authURL="https://www.wikidata.org/wiki/Q25217771" auth="Wikidata">You'll Be Back</title>
-        <songwriter xml:id="composer" authURL="https://www.wikidata.org/wiki/Q1646482" auth="Wikidata"> Lin-Manuel Miranda </songwriter>
+        <songwriter authURL="https://www.wikidata.org/wiki/Q1646482" auth="Wikidata"> Lin-Manuel Miranda </songwriter>
         <respStmt>
           <resp>Encoded by</resp>
           <name>Chen Jin</name>

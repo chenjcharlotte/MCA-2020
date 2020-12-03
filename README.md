@@ -24,7 +24,7 @@ You can listen to this song and watch the video on YouTube by clicking the image
 
 <div align=center>
   <a href="https://www.youtube.com/watch?v=hYr_BdXdpaI">
-    <img height="250" src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week1/background_jonathangroff.png?raw=true" alt="jonathan groff"/>
+    <img height="500" src="https://github.com/chenjcharlotte/MCA-2020/blob/master/Labs/week1/background_jonathangroff.png?raw=true" alt="jonathan groff"/>
   </a>
 </div>
 
